@@ -1,16 +1,42 @@
-# React + Vite
+# Study Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive 30-day study timetable app built with React, Vite, Tailwind CSS, and optional Firebase login/cloud sync.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://study-planner-ashen-six.vercel.app/
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 30-day study timetable
+- Editable task names for each day
+- Done, undone, and skipped task tracking
+- Daily notes saved locally
+- XP and streak tracking
+- Pomodoro timer
+- Progress analytics
+- Light and dark mode
+- Optional Firebase email login and Firestore sync
 
-## Expanding the ESLint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```powershell
+npm install
+npm run dev
+```
+
+Open:
+
+```text
+http://127.0.0.1:5173
+```
+
+## Build
+
+```powershell
+npm run build
+```
+
+## Firebase Setup
+
+Create a `.env` file using `.env.example`, then add your Firebase web app config values.
